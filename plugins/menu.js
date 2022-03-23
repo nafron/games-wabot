@@ -38,10 +38,9 @@ const defaultMenu = {
 │ Tanggal Islam: *%dateIslamic*
 │ Waktu: *%time*
 │
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ *Berjalan Selama*: *%uptime (%muptime)*
+│ Telah Registrasi: %rtotalreg of %totalreg
+│ 
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -138,7 +137,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       npmname: package.name,
       npmdesc: package.description,
       version: package.version,
-      github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
+      github: package.homepage ? package.homepage.url || package.homepage : 'Fron',
       name, weton, week, date, dateIslamic, time, totalreg, rtotalreg,
       readmore: readMore
     }
@@ -146,8 +145,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     let pp = await conn.getProfilePicture(conn.user.jid).catch(_ => path.join(__dirname, '../src/avatar_contact.png'))
     conn.sendButton(m.chat,text.trim(), author,  pp,  [
   ['Ping',  '/ping'],
-  ['Info',  '/info'],
-  ['Owner',  '/owner']
+  ['Informasi',  '/info'],
+  ['Pemilik',  '/creator']
 ], { quoted: m}).catch(_ => conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m)).catch(_ => conn.reply(m.chat, text.trim(), m))
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)

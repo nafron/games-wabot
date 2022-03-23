@@ -20,7 +20,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ┃➜ DANA : 081252733108
 ┃➜ TELKOMSEL : 081252733108
 ┃ *TERTARIK?* Chat Owner Sekarang
-┃Juga dengan Ketik *.Owner*
+┃Juga wa.me/+628252733108
 ┣❀ SYARAT & KETENTUAN 
 ┃『𝐅𝐑𝐎𝐍 𝐁𝐎𝐓』
 ┃

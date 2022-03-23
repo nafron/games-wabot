@@ -5,7 +5,7 @@ let handler = async (m, { conn, DevMode }) => {
         let old = performance.now()
         await m.reply('_𝐅𝐑𝐎𝐍 𝐁𝐎𝐓 Testing speed..._')
         let neww = performance.now()
-        m.reply ⚡𝑲𝑬𝑪𝑬𝑷𝑨𝑻𝑨𝑵 𝑩𝑶𝑻 𝑴𝑬𝑹𝑬𝑺𝑷𝑶𝑵(neww - old + 'ms')
+        m.reply ⚡𝑲𝑬𝑪𝑬𝑷𝑨𝑻𝑨𝑵 𝑩𝑶𝑻 𝑴𝑬𝑹𝑬𝑺𝑷𝑶𝑵 (neww - old + 'ms')
     } catch (e) {
         console.log(e)
         m.reply('Error!!')

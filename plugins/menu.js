@@ -39,7 +39,7 @@ const defaultMenu = {
 │ Waktu: *%time*
 │
 │ *Berjalan Selama*: *%uptime (%muptime)*
-│ Telah Registrasi: %rtotalreg of %totalreg
+│ Telah Registrasi: %totalreg
 │ 
 ╰────
 %readmore`.trimStart(),

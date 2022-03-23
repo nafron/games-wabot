@@ -19,7 +19,8 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ┃➜ GOPAY: 081252733108
 ┃➜ DANA : 081252733108
 ┃➜ TELKOMSEL : 081252733108
-┃
+┃*TERTARIK?* Chat Owner Sekarang
+┃Juga dengan Ketik *.Owner*
 ┣❀ SYARAT & KETENTUAN 
 ┃『𝐅𝐑𝐎𝐍 𝐁𝐎𝐓』
 ┃

@@ -1,6 +1,6 @@
 let handler = m => m
 
-let linkRegex = /(a(su|nj(([ie])ng|([ie])r)?)|me?me?k|ko?nto?l|ba?bi|fu?ck|ta(e|i)k|bangsat|g([iueo])bl([iueo])(k|g)|g ([iueo]) b l ([iueo]) (k|g)|a (n j (i n g|i r)?)s u|col(i|ay)|an?jg|b([ia])ngs([ia])?t|t([iuo])l([iuo])l)/i
+let linkRegex = /(a(su|nj(([ie])ng|([ie])r)?)|me?me?k|ko?nto?l|ba?bi|fu?ck|ta(e|i)k|bangsat|g([iueo])bl([iueo])(k|g)|g ([iueo]) b l ([iueo]) (k|g)|a (n j (i n g|i r)?)s u|col(i|ay)|an?jg|b([ia])ngs([ia])?t|t([iuo])l([iuo])l)|ya?ti?m|ng?ento?d|ko?nto?l|pe?le?r|ka?mpa?ng|ng?ewe?l|/i
 handler.before = function (m, { user }) {
   if (m.isBaileys && m.fromMe) return true
   if (/masuk|lanjutkan|banjir|(per)?panjang/g.exec(m.text)) return true
@@ -8,7 +8,7 @@ handler.before = function (m, { user }) {
   let isGroupToxic = linkRegex.exec(m.text)
 
   if (chat.antiToxic && isGroupToxic) {
-    m.reply('Jangan Toxic ya!!\n' + readMore + '\nMau Matikan? ketik */disable antitoxic*')
+    m.reply('*Jangan Toxic *!!\n' + readMore + '\n*MAU DI KICK!!?* *Admin Tidak ada Toleransi Terhadap Toxickerss!!*')
     if (global.opts['restrict']) {
       // if (!user.isAdmin) return true
       // this.groupRemove(m.chat, [m.sender])

@@ -34,13 +34,15 @@ const defaultMenu = {
 ╭─「 %me 」
 │ %ucapan, %name!
 │
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│ 𝐓𝐚𝐧𝐠𝐠𝐚𝐥: *%week %weton, %date*
+│ 𝐓𝐚𝐧𝐠𝐠𝐚𝐥 𝐈𝐬𝐥𝐚𝐦: *%dateIslamic*
+│ 𝐖𝐚𝐤𝐭𝐮 (𝐖𝐈𝐁): *%time*
 │
-│ *Berjalan Selama*: *%uptime (%muptime)*
-│ Telah Registrasi: %totalreg
-│ 
+│ *𝐁𝐞𝐫𝐣𝐚𝐥𝐚𝐧 𝐒𝐞𝐥𝐚𝐦𝐚*: *%uptime*
+│ 𝐏𝐞𝐧𝐠𝐠𝐮𝐧𝐚 𝐛𝐨𝐭 𝐬𝐞𝐤𝐚𝐫𝐚𝐧𝐠
+: %rtotalreg of %totalreg
+│
+│️𝗕𝗢𝗧 𝗞𝗔𝗣𝗔𝗡 𝗦𝗔𝗝𝗔 𝗕𝗜𝗦𝗔 𝗠𝗘𝗡𝗚𝗨𝗟𝗔𝗡𝗚 𝗦𝗜𝗦𝗧𝗘𝗠 𝗗𝗔𝗥𝗜 𝗔𝗪𝗔𝗟 𝗝𝗜𝗞𝗔 𝗗𝗜𝗣𝗘𝗥𝗟𝗨𝗞𝗔𝗡
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -183,16 +185,16 @@ function ucapan() {
   const time = (new Date().getUTCHours() + 7) % 24
   res = "Woi. Pagi"
   if (time >= 4) {
-    res = "Selamat Pagi"
+    res = "Selamat Pagi 😆"
   }
   if (time >= 12) {
-    res = "Selamat Siang"
+    res = "Selamat Siang😆"
   }
   if (time >= 15) {
-    res = "Selamat Sore"
+    res = "Selamat Sore😆"
   }
   if (time >= 19) {
-    res = "Selamat Malam"
+    res = "Selamat Malam😆"
   }
   return res
 }

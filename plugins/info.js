@@ -11,28 +11,27 @@ let handler  = async (m, { conn, usedPrefix }) => {
   let neww = Math.round(performance.now())
   conn.reply(m.chat, `
 ┏━━━━━『𝐅𝐑𝐎𝐍 𝐁𝐎𝐓』━━━━━
-┃ *Versi:* 2
+┃ *Versi:* 3 🎮
 ┃
-┣『BELI PREMIUM 𝐅𝐑𝐎𝐍 𝐁𝐎𝐓 』
-┃> Keuntungan Akses Fitur Yang di 
-┃Kunci ✅
-┃➜ GOPAY: 081252733108
-┃➜ DANA : 081252733108
-┃➜ TELKOMSEL : 081252733108
-┃ *TERTARIK?* Chat Owner Sekarang
-┃Juga wa.me/+628252733108
-┣❀ SYARAT & KETENTUAN 
+┃➜⚙️ APA YANG BARU?
+┣ Fronbot Season 01 Telah Hadir !!
+┣ Pembaruan Sistem
+┃
+┣『HAY SAYA 𝐅𝐑𝐎𝐍 𝐁𝐎𝐓 』
+┃> Di Jalankan Oleh Bang Nafron
+┃➜ ❗Harap Mematuhi Peraturan 𝐅𝐑𝐎𝐍 𝐁𝐎𝐓
+┃Tidak Patuh? Blokir / Blacklist
+┣❀ ⚠️SYARAT & KETENTUAN 
 ┃『𝐅𝐑𝐎𝐍 𝐁𝐎𝐓』
 ┃
-┃➜ *KAMI TIDAK BERTANGGUNG*
-┃   *JAWAB ATAS PENYALAH*
-┃   *GUNAAN BOT*
-┃➜ *KAMI TIDAK BERTANGGUNG*
-┃   *JAWAB ATAS KEBOCORAN DATA*
-┃   *PRIBADI ANDA*
-┃➜ *KAMI AKAN MENYIMPAN DATA*
-┃   *SEPERTI NOMER TELEPON*
-┃   *ANDA DI DATABASE KAMI*
+┃➜ *ADMIN DAPAT MELIHAT AKTIVITAS*
+┃   *PENGGUNA FRON BOT*
+┃➜ *FRON BOT DAPAT MENYIMPAN FOTO*
+┃   *KAMU DI DATABASE*
+┃   *TERMASUK NOMOR DAN LAIN²*
+┃➜ *MEMATUHI PERATURAN GROUP*
+┃   *KIRIM VIRTEX ATAU SEJENISNYA*
+┃   *DAN SPAM AUTO BLOKIR*
 ┃ 
 ┃ 
 ┣❀©2022 𝗡𝗮𝗳𝗿𝗼𝗻

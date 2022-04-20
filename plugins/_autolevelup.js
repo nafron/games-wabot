@@ -25,7 +25,7 @@ ${teks}
 • 🧬Level Baru : ${lvlnow}
 • Pada Jam : ${time}
 
-*_Semakin sering berinteraksi dengan bot Semakin Tinggi level kamu & Jangan lupa cek Papan Level setiap waktu dengan cara ketik #leaderboard_*
+*_Semakin sering berinteraksi dengan Fron bot Semakin Tinggi level kamu 📈 & Jangan lupa cek Papan Level setiap waktu dengan cara ketik #leaderboard_*
 `.trim()
       if (global.support.convert || global.support.magick || global.support.gm) {
         let fontLevel = 'src/level_c.otf'

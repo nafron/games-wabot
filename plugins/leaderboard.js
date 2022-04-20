@@ -10,16 +10,19 @@ let handler = async (m, { conn, args }) => {
   let userslevel = sortedlevel.map(v => v[0])
   let len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 5)) : Math.min(20, sortedExp.length)
     let text = `
-*JADILAH LEVEL PALING TERTINGGI DI ANTARA ORANG ORANG!*
-• *Level Leaderboard Top ${len}* •
+*SEASON 01 BERLANGSUNG SELAMA 20 - 21 APRIL RESET JAM 23:59*
+HADIAH : 🏅 BANNER CLUBS FRONBOT S1
+Yang Terpilih Juara 1 - 3
+_Pemenang akan di Post Instragram @nafronam Setiap Season_
+📊 *Level Leaderboard Top ${len}* 📊
 Kamu: *${userslevel.indexOf(m.sender) + 1}* dari *${userslevel.length}*
 
-${sortedlevel.slice(0, len).map(([user, data], i) => (i + 1) + '. @' + user.split`@`[0] + ': *' + data.level + ' Lvl*').join`\n`}
+${sortedlevel.slice(0, len).map(([user, data], i) => (i + 1) + '. @' + user.split`@`[0] + ': *' + data.level + ' LEVEL*').join`\n`}
 
-• *Money Leaderboard Top ${len}* •
+💰 *Money Leaderboard Top ${len}* 💰
 Kamu: *${usersmoney.indexOf(m.sender) + 1}* dari *${usersmoney.length}*
 
-${sortedmoney.slice(0, len).map(([user, data], i) => (i + 1) + '. @' + user.split`@`[0] + ': *' + data.money + ' Money*').join`\n`}
+${sortedmoney.slice(0, len).map(([user, data], i) => (i + 1) + '. @' + user.split`@`[0] + ': *' + data.money + ' MONEY*').join`\n`}
 `.trim()
   conn.reply(m.chat, text, m, {
     contextInfo: {
